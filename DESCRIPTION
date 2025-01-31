@@ -1,11 +1,10 @@
-Package: msstrings-JasonCiemielewski
-Title: Mass Spec Protein mods
+Package: MSstrings
+Title: Mass Spec Protein Sequence
 Version: 0.0.1
 Authors@R: 
-    person("Jason", "Ciemielewski", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jason", "Ciemielewski", , email = "ciemielewski.jason@gmail.com", role = c("aut", "cre"))
+Description: MSstrings takes a spectronaught Mass Spec sequence and returns the proteins sequence and modifications.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
