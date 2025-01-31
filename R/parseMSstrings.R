@@ -1,10 +1,10 @@
 # parseMSstrings.R
 # utilities for parsing MS strings
 
-library(Biostrings) # for `AAStringSet` - BiocManager::install('Biostrings')
-library(dplyr) # for `tibble`
-library(purrr) # for `map` and `map_chr`
-library(stringr) # for `str_extract_all`, `str_replace`, `str_replace_all`, and `str_split`
+# library(Biostrings) # for `AAStringSet` - BiocManager::install('Biostrings')
+# library(dplyr) # for `tibble`
+# library(purrr) # for `map` and `map_chr`
+# library(stringr) # for `str_extract_all`, `str_replace`, `str_replace_all`, and `str_split`
 
 parse_mods <- function(seqs, format = 'Spectronaut')
 {
