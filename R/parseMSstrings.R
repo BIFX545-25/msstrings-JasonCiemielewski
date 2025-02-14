@@ -1,13 +1,17 @@
-#' pareseMSstrings.R
+#' parseMSstrings.R
 #' Extracts metadata from annotated peptide sequence from Spectronaut, returns tibble with sequence, modifications, and modification locations in peptide sequence.
 #'
-#' @param seqs A character string. Sequence represents amino acid sequence
-#' @param mods A character string. Sequence represents modifications to amino acids
-#' @param mods_at A numeric value. Location of modifications in sequence
+#' @param seqs A character string. Sequence represents amino acids.
+#' @param mods A character string. Sequence represents modifications to amino acids.
+#' @param mods_at A numeric value. Location of modifications in sequence.
 #'
-#' @returns A tibble.
+#' @returns A tibble.  Tibble containing amino acid seqeuence, modifications,
+#'  and sequence position location of modifications
 #' @export
-#' @importFrom dplyr purrr Biostrings stringr str_extract_all str_replace_all
+#' @importFrom dplyr tibble
+#' @importFrom purrr map map_chr
+#' @importFrom Biostrings AAStringSet
+#' @importFrom stringr str_extract_all str_replace str_replace_all str_split
 
 # parseMSstrings.R
 # utilities for parsing MS strings

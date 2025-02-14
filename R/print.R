@@ -1,9 +1,10 @@
 #' printR.R
 #'
+#'Print method for protein_mods objects
 #'
 #' @param x A data frame containing amino acid sequences
-#'
-#' @returns
+#' @returns A character sequence.  Character sequence is a visual representation
+#' of amino acid sequence, along with modifications and their location
 #' @export
 #' @importFrom
 #' @method print protein_mods

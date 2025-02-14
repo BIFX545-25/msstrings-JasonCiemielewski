@@ -2,22 +2,23 @@
 % Please edit documentation in R/parseMSstrings.R
 \name{parse_mods}
 \alias{parse_mods}
-\title{pareseMSstrings.R
+\title{parseMSstrings.R
 Extracts metadata from annotated peptide sequence from Spectronaut, returns tibble with sequence, modifications, and modification locations in peptide sequence.}
 \usage{
 parse_mods(seqs, format = "Spectronaut")
 }
 \arguments{
-\item{seqs}{A character string. Sequence represents amino acid sequence}
+\item{seqs}{A character string. Sequence represents amino acids.}
 
-\item{mods}{A character string. Sequence represents modifications to amino acids}
+\item{mods}{A character string. Sequence represents modifications to amino acids.}
 
-\item{mods_at}{A numeric value. Location of modifications in sequence}
+\item{mods_at}{A numeric value. Location of modifications in sequence.}
 }
 \value{
-A tibble.
+A tibble.  Tibble containing amino acid seqeuence, modifications,
+and sequence position location of modifications
 }
 \description{
-pareseMSstrings.R
+parseMSstrings.R
 Extracts metadata from annotated peptide sequence from Spectronaut, returns tibble with sequence, modifications, and modification locations in peptide sequence.
 }
