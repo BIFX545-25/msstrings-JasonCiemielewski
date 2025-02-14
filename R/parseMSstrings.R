@@ -11,7 +11,7 @@
 #' @importFrom dplyr tibble
 #' @importFrom purrr map map_chr
 #' @importFrom Biostrings AAStringSet
-#' @importFrom stringr str_extract_all str_replace str_replace_all str_split
+#' @importFrom stringr str_extract_all str_replace str_replace_all str_split fixed
 
 # parseMSstrings.R
 # utilities for parsing MS strings
